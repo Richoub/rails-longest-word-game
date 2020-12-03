@@ -1,0 +1,8 @@
+<body>
+  <h1>Results</h1>
+  <p>The letters: <%= @letters %></p>
+  <p>Your guess: <%= @guess %></p>
+  <p><%= @win ? "You won" : "You lost" %></p>
+  <br>
+  <%= link_to "Play again", new_path %>
+</body>
